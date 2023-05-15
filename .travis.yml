@@ -16,7 +16,7 @@ before_script:
 script:
   # udagram-reverseproxy
   - docker build -t reverseproxy ./udagram-reverseproxy
-  - docker tag udagram-reverseproxy halzamly/reverseproxy:v1
+  - docker tag reverseproxy halzamly/reverseproxy:v1
 
   # udagram-api-feed 
   - docker build -t udagram-api-feed ./udagram-api-feed
